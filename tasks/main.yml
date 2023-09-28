@@ -9,3 +9,6 @@
 - name: roles list
   debug:
     var: roles
+- name: set my role_path
+  set_vars:
+    rp: "{{ role_path }}"
