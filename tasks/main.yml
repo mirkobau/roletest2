@@ -3,6 +3,9 @@
 - name: hello
   debug:
     msg: "Hello from role in {{ role_path }}, whose name is {{ role_name }}"
-- name: roles list
+- name: role names
   debug:
     var: role_names
+- name: roles list
+  debug:
+    var: roles
