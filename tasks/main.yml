@@ -2,7 +2,7 @@
 # tasks file for roletest2
 - name: hello
   debug:
-    msg: "Hello from role in {{ role_path }}"
+    msg: "Hello from role in {{ role_path }}, whose name is {{ role_name }}"
 - name: roles list
   debug:
     var: "{{ role_names }}"
