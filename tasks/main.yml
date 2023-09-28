@@ -10,5 +10,5 @@
   debug:
     var: roles
 - name: set my role_path
-  set_vars:
+  set_facts:
     rp: "{{ role_path }}"
